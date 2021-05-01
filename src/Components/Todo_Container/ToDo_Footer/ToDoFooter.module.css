@@ -1,0 +1,18 @@
+.todo_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: white;
+}
+.todo_footer button{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    margin: 0px 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+

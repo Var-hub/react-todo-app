@@ -1,0 +1,31 @@
+.todo_item{
+    background: white;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.todo_item input{
+    width: 5%;
+}
+.todo_item label{
+    width: 95%;
+}
+.todo_item button{
+    position: absolute;
+    right: -100%;
+    top: 50%;
+    transform: translate(0px , -50%);
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.todo_item:hover >button{
+    right: 20px;
+}
+
+.todo_item.active label{
+    text-decoration: line-through;
+    color: #ccc;
+}

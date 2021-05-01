@@ -1,0 +1,27 @@
+.form_group{
+    width: 100%;
+    padding: 10px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 30px  0px 20px 0px;
+}
+.form_group input {
+    width: 85%;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.form_group button{
+    padding: 10px;
+    display: inline-block;
+    width: 15%;
+    background-color: #7f9af5;
+    color: white;
+    border: none;
+}
+.form_group.invalid input{
+    border: 1px solid red;
+    background-color: rgb(201, 136, 136);
+  }
